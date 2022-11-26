@@ -3,6 +3,7 @@ import "./Header.css"
 import CTA from "./CTA"
 import ME from "../../assets/me.png"
 import HeadSocials from './headSocials'
+import { HashLink } from 'react-router-hash-link'
 
 
 const Header = () => {
@@ -19,7 +20,7 @@ const Header = () => {
         <div className="me glass-effect">
           <img src={ME} alt="" />
         </div>
-        <a href="#contact" className='scroll__down'>Scroll Down</a>
+        <HashLink to="/Portfolio/#contact" className='scroll__down'>Scroll Down</HashLink>
 
       </div>  
     </header>

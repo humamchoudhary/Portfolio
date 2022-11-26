@@ -1,7 +1,7 @@
 import React from 'react'
 import "./portfolio.css"
 import { Projects } from "../../projects.js"
-
+import { HashLink } from 'react-router-hash-link'
 
 const Portfolio = () => {
   return (
@@ -29,7 +29,7 @@ const Portfolio = () => {
 
 
       </div>
-      <a className='moreprojects btn btn-primary' href="/Portfolio/Portfolio">More Projects</a>
+      <HashLink className='moreprojects btn btn-primary' to="/Portfolio/Portfolio/#">More Projects</HashLink>
 
     </section>
   )
