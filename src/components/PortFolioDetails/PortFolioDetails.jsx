@@ -4,18 +4,19 @@ import { AllProjects } from "../../projects.js"
 import { IoArrowBack } from "react-icons/io5"
 import Footer from "../footer/Footer"
 import { BiUpArrowAlt } from 'react-icons/bi'
+import { HashLink } from 'react-router-hash-link'
 
 const PortFolioDetails = () => {
     return (
 
         <section id='#'>
-            <a href="#">
+            <HashLink to="#">
                 <BiUpArrowAlt className='upIcon' />
 
-            </a>
-            <a href="/Portfolio/#portfolio">
+            </HashLink>
+            <HashLink to="/Portfolio/#portfolio">
                 <IoArrowBack className='back' />
-            </a>
+            </HashLink>
             <h5 className="text-light headline">All Of My Work</h5>
             <h2 className='headline'>Portfolio</h2>
 

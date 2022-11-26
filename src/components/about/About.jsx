@@ -4,6 +4,7 @@ import ME from "../../assets/me2.jpeg"
 import { FiAward} from "react-icons/fi"
 import { FiUsers } from "react-icons/fi"
 import { VscFolderLibrary } from "react-icons/vsc"
+import { HashLink } from 'react-router-hash-link'
 
 const About = () => {
   return (
@@ -50,7 +51,7 @@ const About = () => {
             ducimus sequi!
           </p>
 
-          <a href="#contact" className="btn btn-primary">Lets Talk</a>
+        <HashLink to="#contact" className='btn btn-primary'>Let's Talk</HashLink>
 
         </div>
       </div>

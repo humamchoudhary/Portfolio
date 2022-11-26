@@ -8,6 +8,7 @@ import Portfolio from "../Portfolio/Portfolio"
 import Footer from "../footer/Footer"
 import Services from "../Services/Service"
 const Home = () => {
+    console.log(window.location.pathname);
     return (
         <>
             <Header />
