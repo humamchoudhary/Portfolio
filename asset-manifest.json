@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.98aa9e7c.css",
-    "main.js": "/Portfolio/static/js/main.9c1cc78e.js",
-    "static/media/CV.pdf": "/Portfolio/static/media/CV.e879bd311d01be6152b7.pdf",
-    "static/media/me.png": "/Portfolio/static/media/me.439ef55d3cc1574334b4.png",
-    "static/media/Al Kitab.png": "/Portfolio/static/media/Al Kitab.473b0a7a6d8dd322b4a8.png",
-    "static/media/me2.jpeg": "/Portfolio/static/media/me2.a3b737dc777a1692b06b.jpeg",
-    "index.html": "/Portfolio/index.html",
-    "main.98aa9e7c.css.map": "/Portfolio/static/css/main.98aa9e7c.css.map",
-    "main.9c1cc78e.js.map": "/Portfolio/static/js/main.9c1cc78e.js.map"
+    "main.css": "/static/css/main.98aa9e7c.css",
+    "main.js": "/static/js/main.b57c57b0.js",
+    "static/media/CV.pdf": "/static/media/CV.e879bd311d01be6152b7.pdf",
+    "static/media/me.png": "/static/media/me.439ef55d3cc1574334b4.png",
+    "static/media/Al Kitab.png": "/static/media/Al Kitab.473b0a7a6d8dd322b4a8.png",
+    "static/media/me2.jpeg": "/static/media/me2.a3b737dc777a1692b06b.jpeg",
+    "index.html": "/index.html",
+    "main.98aa9e7c.css.map": "/static/css/main.98aa9e7c.css.map",
+    "main.b57c57b0.js.map": "/static/js/main.b57c57b0.js.map"
   },
   "entrypoints": [
     "static/css/main.98aa9e7c.css",
-    "static/js/main.9c1cc78e.js"
+    "static/js/main.b57c57b0.js"
   ]
 }
