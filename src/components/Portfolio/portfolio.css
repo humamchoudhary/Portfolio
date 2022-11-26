@@ -41,6 +41,9 @@
     display: flex;
     gap: 1rem;
 }
+.moreprojects{
+    margin: 3rem auto;
+}
 
 /*  ##################  Media Queries (MEDIUM DEVICES)  ######################   */
 

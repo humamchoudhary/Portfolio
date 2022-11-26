@@ -2,6 +2,7 @@ import React from 'react'
 import "./portfolio.css"
 import { Projects } from "../../projects.js"
 
+
 const Portfolio = () => {
   return (
     <section id="portfolio">
@@ -24,7 +25,12 @@ const Portfolio = () => {
             </article>
           )
         })}
+
+
+
       </div>
+      <a className='moreprojects btn btn-primary' href="/Portfolio">More Projects</a>
+
     </section>
   )
 }
