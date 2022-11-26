@@ -29,7 +29,7 @@ const Portfolio = () => {
 
 
       </div>
-      <a className='moreprojects btn btn-primary' href="/Portfolio">More Projects</a>
+      <a className='moreprojects btn btn-primary' href="/Portfolio/Portfolio">More Projects</a>
 
     </section>
   )

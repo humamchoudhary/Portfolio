@@ -12,12 +12,12 @@ const Nav = () => {
   const [activeNav,setActivenav] = useState("/#");
   return (
     <nav>
-      <a href="/#" onClick={()=>setActivenav("/#")}  className={activeNav ==="/#"?'active':''}><FiHome/></a>
-      <a href="/#about" onClick={()=>setActivenav("/#about")} className={activeNav ==="/#about"?'active':''}><FiUser /></a>
-      <a href="/#portfolio" onClick={()=>setActivenav("/#portfolio")} className={activeNav ==="/#portfolio"?'active':''}><AiOutlineFolderOpen/></a>
-      <a href="/#experience" onClick={()=>setActivenav("/#experience")} className={activeNav ==="/#experience"?'active':''}><FaBusinessTime/></a>
-      <a href="/#services" onClick={()=>setActivenav("/#services")} className={activeNav ==="/#services"?'active':''}><FaHandshake/></a>
-      <a href="/#contact" onClick={()=>setActivenav("/#contact")} className={activeNav ==="/#contact"?'active':''}><AiOutlineContacts/></a>
+      <a href="/Portfolio/#" onClick={()=>setActivenav("/Portfolio/#")}  className={activeNav ==="/Portfolio/#"?'active':''}><FiHome/></a>
+      <a href="/Portfolio/#about" onClick={()=>setActivenav("/Portfolio/#about")} className={activeNav ==="/Portfolio/#about"?'active':''}><FiUser /></a>
+      <a href="/Portfolio/#portfolio" onClick={()=>setActivenav("/Portfolio/#portfolio")} className={activeNav ==="/Portfolio/#portfolio"?'active':''}><AiOutlineFolderOpen/></a>
+      <a href="/Portfolio/#experience" onClick={()=>setActivenav("/Portfolio/#experience")} className={activeNav ==="/Portfolio/#experience"?'active':''}><FaBusinessTime/></a>
+      <a href="/Portfolio/#services" onClick={()=>setActivenav("/Portfolio/#services")} className={activeNav ==="/Portfolio/#services"?'active':''}><FaHandshake/></a>
+      <a href="/Portfolio/#contact" onClick={()=>setActivenav("/Portfolio/#contact")} className={activeNav ==="/Portfolio/#contact"?'active':''}><AiOutlineContacts/></a>
     </nav>
   )
 }

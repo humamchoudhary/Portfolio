@@ -13,7 +13,7 @@ const PortFolioDetails = () => {
                 <BiUpArrowAlt className='upIcon' />
 
             </a>
-            <a href="/#portfolio">
+            <a href="/Portfolio/#portfolio">
                 <IoArrowBack className='back' />
             </a>
             <h5 className="text-light headline">All Of My Work</h5>
