@@ -1,5 +1,6 @@
 import React from 'react'
 import {
+  HashRouter,
   BrowserRouter as Router,
   Routes,
   Route
@@ -11,14 +12,14 @@ import Error404 from './components/404/404';
 const App = () => {
   return (
     <>
-      <Router>
+      <HashRouter>
         <Routes>
           <Route path="/Portfolio/Portfolio"  element={<PortFolioDetails />} />
           <Route path='/Portfolio' element={<Home />} />
           <Route path='/Portfolio/*' element={<Error404 />}/>
         </Routes>
 
-      </Router>
+      </HashRouter>
 
     </>
   )
