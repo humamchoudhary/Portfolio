@@ -60,11 +60,18 @@ footer a {
 
 /* ============================ MEDIA QUERIES (SD) ========================= */
 @media screen and (max-width:600px) {
+    .footer__logo{
+        font-size: 1.3rem;
+    }
     .permalinks{
+        font-size: 0.9rem;
         flex-direction: column;
         gap: 1.5rem;
     }
     .footer__socials{
         margin-bottom: 2.6rem;
+    }
+    .footer__copyright{
+        font-size: 0.8rem;
     }
 }

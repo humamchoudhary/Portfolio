@@ -87,6 +87,14 @@ const Experience = () => {
                 <small className='text-light'>Expert</small>
               </div>
             </article>
+            <article className="experience__details">
+
+              <FiCheckSquare className='exp_de_icons' />
+              <div>
+                <h4>Java</h4>
+                <small className='text-light'>Expert</small>
+              </div>
+            </article>
 
             <article className="experience__details">
               <FiCheckSquare className='exp_de_icons' />
@@ -132,40 +140,40 @@ const Experience = () => {
 
               <FiCheckSquare className='exp_de_icons' />
               <div>
-              <h4>Adobe XD</h4>
-              <small className='text-light'>Expert</small>
-              </div>
-            </article>
-
-            <article className="experience__details">
-              <FiCheckSquare className='exp_de_icons' />
-             <div>
-             <h4>Adobe Illistrator</h4>
-              <small className='text-light'>Expert</small>
-             </div>
-            </article>
-
-            <article className="experience__details">
-              <FiCheckSquare className='exp_de_icons' />
-             <div>
-             <h4>Adobe PhotoShop</h4>
-              <small className='text-light'>Expert</small>
-             </div>
-            </article>
-
-            <article className="experience__details">
-              <FiCheckSquare className='exp_de_icons' />
-              <div>
-              <h4>Adobe After Effects</h4>
-              <small className='text-light'>Intermediate</small>
+                <h4>Adobe XD</h4>
+                <small className='text-light'>Expert</small>
               </div>
             </article>
 
             <article className="experience__details">
               <FiCheckSquare className='exp_de_icons' />
               <div>
-              <h4>Adobe Preimer Pro</h4>
-              <small className='text-light'>Basic</small>
+                <h4>Adobe Illistrator</h4>
+                <small className='text-light'>Expert</small>
+              </div>
+            </article>
+
+            <article className="experience__details">
+              <FiCheckSquare className='exp_de_icons' />
+              <div>
+                <h4>Adobe PhotoShop</h4>
+                <small className='text-light'>Expert</small>
+              </div>
+            </article>
+
+            <article className="experience__details">
+              <FiCheckSquare className='exp_de_icons' />
+              <div>
+                <h4>Adobe After Effects</h4>
+                <small className='text-light'>Intermediate</small>
+              </div>
+            </article>
+
+            <article className="experience__details">
+              <FiCheckSquare className='exp_de_icons' />
+              <div>
+                <h4>Adobe Preimer Pro</h4>
+                <small className='text-light'>Basic</small>
               </div>
             </article>
 

@@ -38,12 +38,16 @@ nav a.active {
 
 @media screen and (max-width:1024px) {
     nav {
+        top: 95vh;
         left: 50%;
         height: max-content;
-        top: 95vh;
-        transform: translateY(-50%) translateX(-50%);
+        transform: translateY(-100%) translateX(-50%);
         flex-direction: row;
-        bottom: 1.2rem;
+        bottom: 3rem;
+        margin-bottom: 2rem;
+    }
+    nav a{
+        font-size: 1rem;
     }
     
 }
